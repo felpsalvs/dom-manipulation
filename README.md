@@ -1,14 +1,14 @@
-<h1 align="center"> Explorer Lab #01 </h1>
+<h1 align="center"> Credit Card Masking Example Application </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+This is an example application demonstrating the use of masks for credit card fields such as card number, expiration date, and security code.
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-license">License</a>
 </p>
 
 <p align="center">
@@ -17,45 +17,34 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <br>
 
-<p align="center">
-  <img alt="rocketpay" src=".github/project.png" width="100%">
-</p>
+## 🚀 Technologies
 
-## 🚀 Tecnologias
+This project was developed with the following technologies:
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML e CSS
-- JavaScript e JSON
-- [Node e NPM](https://nodejs.org/)
+- HTML and CSS
+- JavaScript and JSON
+- [Node and NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 - [iMask](https://imask.js.org)
 
-## 💻 Projeto
+## 💻 Project
 
-O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
+Card Number Mask: When entering the card number, it is automatically formatted as "0000 0000 0000 0000" and recognizes Visa and Mastercard types based on the first digits.
+Expiration Date Mask: When entering the expiration date, it is formatted as "MM/YY" and validates the year for the next 10 years.
+Security Code Mask: The security code is formatted as "0000".
 
-## 🔖 Layout
+## 🔖 Usage
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+1. Open the index.html file in your web browser.
+2. Enter the card number, expiration date, and security code in the corresponding fields.
+3. Observe how the masks automatically format the fields.
 
-## :memo: Licença
+## :memo: Contribution
 
-Esse projeto está sob a licença MIT.
+Contributions are welcome! Feel free to open issues and pull requests for improvements.
 
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
+- Fork the project
+- Create a branch with your feature (git checkout -b feature/MyFeature)
+- Commit your changes (git commit -m 'Add MyFeature')
+- Push to the branch (git push origin feature/MyFeature)
+- Open a Pull Request
