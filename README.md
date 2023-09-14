@@ -1,7 +1,7 @@
-<h1 align="center"> Explorer Lab #01 </h1>
+<h1 align="center"> Aplicação de Exemplo de Máscara de Cartão de Crédito </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Este é um exemplo de aplicação que demonstra o uso de máscaras para campos de cartão de crédito, como número do cartão, data de validade e código de segurança.
 </p>
 
 <p align="center">
@@ -17,10 +17,6 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <br>
 
-<p align="center">
-  <img alt="rocketpay" src=".github/project.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -33,29 +29,22 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
+Máscara para Número do Cartão: Ao inserir o número do cartão, ele é automaticamente formatado como "0000 0000 0000 0000" e reconhece os tipos Visa e Mastercard com base nos primeiros dígitos.
+Máscara para Data de Validade: Ao inserir a data de validade, ela é formatada como "MM/YY" e valida o ano para os próximos 10 anos.
+Máscara para Código de Segurança: O código de segurança é formatado como "0000".
 
-## 🔖 Layout
+## 🔖 Uso
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Abra o arquivo index.html em seu navegador.
+Insira o número do cartão, a data de validade e o código de segurança nos campos correspondentes.
+Observe como as máscaras formatam automaticamente os campos.
 
-## :memo: Licença
+## :memo: Contribuição
 
-Esse projeto está sob a licença MIT.
+As contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e solicitações de pull (pull requests) para melhorias.
 
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
+- Faça um fork do projeto
+- Crie uma branch com a sua funcionalidade (git checkout -b feature/MinhaFuncionalidade)
+- Faça commit das suas alterações (git commit -m 'Adicione a MinhaFuncionalidade')
+- Faça push para a branch (git push origin feature/MinhaFuncionalidade)
+- Abra um Pull Request
