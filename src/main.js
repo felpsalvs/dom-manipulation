@@ -1,4 +1,5 @@
 import "./css/index.css"
+import IMask from "imask"
 
 const ccBgColor01 = document.querySelector(".cc-bg svg > g g:nth-child(1) path")
 const ccBgColor02 = document.querySelector(".cc-bg svg > g g:nth-child(2) path")
@@ -6,9 +7,9 @@ const ccLogo = document.querySelector(".cc-logo span:nth-child(2) img")
 
 function setCardType(type) {
   const colors = {
-    visa: ["#436d99", "#2d57f2"],
-    mastercard:["#e8b2c8","#ff5da6"] ,
-    rocketseat: ["#0d6f5d", "#c3129c"],
+    visa: ["#0B4999", "#2DBAF2"],
+    mastercard:["#E99A23","#F50606"] ,
+    rocketseat: ["#6F0D15", "#C3A312"],
     default: ["black", "gray"]
   }
 
@@ -54,7 +55,7 @@ const cardNumberPattern = {
     },
     {
       mask: "0000 0000 0000 0000",
-      regex: /^(5[1-5]\d{0,2}|^22[2-9]\d|^2[3-7]\d{0,2})\d{0,12}/,
+      regex: /(^5[1-5]\d{0,2}|^22[2-9]\d|^2[3,7]\d{0,2})\d{0,12}/,
       cardtype: "mastercard",
     },
     {
